@@ -1,1 +1,7 @@
-# docker
+# Docker
+
+## Commands
+ 
+```sh
+docker volume create --opt type=none --opt o=bind --opt device=/local/path volume_name
+```
