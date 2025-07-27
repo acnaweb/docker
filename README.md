@@ -31,6 +31,8 @@ docker images
 
 **Objetivo:** Criar uma imagem chamada `devops` a partir de um `Dockerfile`.
 
+*Atenção*: Para este exemplo faça o download do Dockerfile contido em https://github.com/acnaweb/iac. Execute os documentos abaixo no mesmo path do Dockerfile.
+
 ```bash
 docker build -t devops .
 docker build -t devops:0.1.0 .
