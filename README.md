@@ -78,6 +78,10 @@ docker run -it ubuntu
 docker run -it -v .:/shared ubuntu /bin/bash
 docker run -it -v .:/shared devops /bin/bash
 ```
+* Power shell
+```
+docker run -it -v ${PWD}:/shared ubuntu
+```
 
 - `-v .:/shared`: monta o diretório atual (`.`) no caminho `/shared` do container
 
