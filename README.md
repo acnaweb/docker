@@ -63,11 +63,10 @@ docker run devops:0.2.0
 **Com terminal interativo:**
 
 ```bash
-docker run -it ubuntu /bin/bash
+docker run -it ubuntu
 ```
 
 - `-it`: abre terminal interativo
-- `/bin/bash`: inicia o shell bash
 
 ---
 
